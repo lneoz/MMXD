@@ -1,0 +1,15 @@
+.biaoge td{
+	text-align: center;
+	width: 160px;
+	height:90px;
+	border: solid 1px;
+}
+.hong{
+	background-color: red;
+	color: #189DE1;
+	font-size: 40px;
+}
+#db{
+	background-color: #CCCC77;
+	font-size: 30px;
+}
