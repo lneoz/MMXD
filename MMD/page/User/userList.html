@@ -28,39 +28,142 @@
 		<!-- 路径导航结束 -->
 		<div id="content" >
 			<link rel="stylesheet" href="../../resources/common/css/adim.css" />
+			<div id="cxbeijing">
+				<div>查询信息</div>
+				<div id="cxneirong">
+					
+						<label class="wenzitou" >用户名</label>
+					<input type="text" class="shurukuang"/>
+					<label class="wenzitou" >真实姓名</label>
+					<input type="text"  class="shurukuang"/>
+		
+				
+					<br />
+						<label class="wenzitou">角色</label>
+					<select class="xialatiao">
+						<option value="0">全部</option>
+						<option value="1">销售主管</option>
+						<option value="2">客户经理</option>
+						<option value="3">高管</option>
+						<option value="4">客户经理</option>
+					</select>
+					<label class="wenzitou">状态</label>
+					<select class="xialatiao">
+						<option value="0">全部</option>
+						<option value="1">正常</option>
+						<option value="2">停用</option>
+					</select>
+					
+					
+				</div>
+				<div class="buttonyangshi">
+				<button class="adimbutton" id="chaxun">查询</button>
+				<button class="adimbutton" id="tianjia">添加</button>
+				</div>
+				
+			</div>
+			<br />
+			<div id="biaogebeijing">
 			<table class="biaoge">
+				<tr >
+					<td id="liebiaotou" colspan="7"><span id="wenziyanse">列表信息</span></td>
+				</tr>
 				<tr id="db">
-					<td>ID</td>
-					<td>账号名</td>
-					<td>身份</td>
-					<td>初始密码为：0000</td>
-					<td>永久性注销账户</td>
+					<td><input type="checkbox"></td>
+					<td>序号</td>
+					<td>用户名</td>
+					<td>真实姓名</td>
+					<td>角色</td>
+					<td>状态</td>
+					<td>操作</td>
 				</tr>
-				<tr>
+				<tr class="danshu">
+					<td><input type="checkbox"></td>
 					<td>DATE</td>
 					<td>DATE</td>
 					<td>DATE</td>
-					<td><button>初始化用户密码</button></td>
-					<td><button class="hong">注销账号</button></td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>
+						<button class="glyphicon glyphicon-lock caozuo"></button>
+						<button class="glyphicon glyphicon-pencil caozuo"></button>
+						<button class="glyphicon glyphicon-trash caozuosc"></button>
+					</td>
 				</tr>
-				<tr>
+				<tr class="shuangshu">
+					<td><input type="checkbox"></td>
 					<td>DATE</td>
 					<td>DATE</td>
 					<td>DATE</td>
-					<td><button>初始化用户密码</button></td>
-					<td><button class="hong">注销账号</button></td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>	
+					<button class="glyphicon glyphicon-lock caozuo"></button>
+						<button class="glyphicon glyphicon-pencil caozuo"></button>
+						<button class="glyphicon glyphicon-trash caozuosc"></button>
+					</td>
 				</tr>
-				<tr>
+				<tr  class="danshu">
+					<td><input type="checkbox"></td>
 					<td>DATE</td>
 					<td>DATE</td>
 					<td>DATE</td>
-					<td><button>初始化用户密码</button></td>
-					<td><button class="hong">注销账号</button></td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>	
+					<button class="glyphicon glyphicon-lock caozuo"></button>
+						<button class="glyphicon glyphicon-pencil caozuo"></button>
+						<button class="glyphicon glyphicon-trash caozuosc"></button>
+					</td>
+				</tr>
+				<tr class="shuangshu">
+					<td><input type="checkbox"></td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>	
+					<button class="glyphicon glyphicon-lock caozuo"></button>
+						<button class="glyphicon glyphicon-pencil caozuo"></button>
+						<button class="glyphicon glyphicon-trash caozuosc"></button>
+					</td>
+				</tr>
+				<tr class="danshu">
+					<td><input type="checkbox"></td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>	
+					<button class="glyphicon glyphicon-lock caozuo"></button>
+						<button class="glyphicon glyphicon-pencil caozuo"></button>
+						<button class="glyphicon glyphicon-trash caozuosc"></button>
+					</td>
+				</tr>
+				<tr class="shuangshu">
+					<td><input type="checkbox"></td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>DATE</td>
+					<td>	
+						<button class="glyphicon glyphicon-lock caozuo"></button>
+						<button class="glyphicon glyphicon-pencil caozuo"></button>
+						<button class="glyphicon glyphicon-trash caozuosc"></button>
+					</td>
 				</tr>
 			</table>
 			
-			
-			
+			<span>显示第1到第6条记录，总共6条记录</span>
+			<br />
+			<div class="buttonyangshi">
+			<button class="adimbutton" id="qiyongUSER">启用选中用户</button>
+			<button class="adimbutton" id="tignyongUSER">停用选中用户</button>
+			</div>
+			</div>
 			
 		</div>
 	
