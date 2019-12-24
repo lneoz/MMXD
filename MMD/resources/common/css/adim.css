@@ -8,9 +8,14 @@ border:1px solid  #D7D7D7;
 	background-color: #2D2D2D;
 	height: 30px;
 	text-align: left;
-}
-#wenziyanse{
 	color: #FFFFFF;
+}
+
+.tupianduiqi{
+	 display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
 }
 .caozuo{
 	width: 40px;
